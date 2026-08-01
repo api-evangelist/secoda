@@ -1,8 +1,26 @@
 aid: secoda
 name: Secoda
-description: 'Secoda is a company surfaced as a portfolio company of craft-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: developer-tools. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Secoda is an AI-powered data catalog, governance, and observability platform
+  that acts as a metadata control plane for data teams. It unifies discovery,
+  documentation, lineage, data-quality monitoring, and access governance across
+  70+ integrations (Snowflake, BigQuery, Databricks, dbt, Tableau, and more),
+  and exposes a REST API plus a Model Context Protocol (MCP) server so agents and
+  automation can search assets, run SQL, retrieve lineage, and manage users,
+  tags, and metadata programmatically. Backed by Craft Ventures.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/61ddd0b42c51f86c96e1e90e/683a14fafd2295179b0ab954_Open%20graph%20image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/secoda/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +30,121 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Developer Tools
-apis: []
+- Data Catalog
+- Data Governance
+- Metadata
+- Data Lineage
+- Data Quality
+- Data Discovery
+- Observability
+- AI Agents
+apis:
+- name: Secoda API
+  description: >-
+    HTTP REST API to interact with a Secoda workspace — CRUD over catalog
+    resources (databases, schemas, tables, columns, dashboards, charts,
+    collections, documents, glossary/terms, tags, custom properties), plus users,
+    teams, groups, monitors, queries, questions, lineage, events, and audit logs.
+    Bearer API-key auth; 30 calls/min write rate limit; page-based pagination.
+  humanURL: https://docs.secoda.co/api
+  baseURL: https://api.secoda.co
+  properties:
+  - type: Documentation
+    url: https://docs.secoda.co/api
+  - type: APIReference
+    url: https://docs.secoda.co/api/reference
+  - type: GettingStarted
+    url: https://docs.secoda.co/api/reference/getting-started
+  - type: Authentication
+    url: authentication/secoda-authentication.yml
+  - type: RateLimits
+    url: rate-limits/secoda-rate-limits.yml
+  - type: Conventions
+    url: conventions/secoda-conventions.yml
+  - type: ErrorCatalog
+    url: errors/secoda-problem-types.yml
+  - type: Lifecycle
+    url: lifecycle/secoda-lifecycle.yml
+  - type: DataModel
+    url: data-model/secoda-data-model.yml
+  - type: Conformance
+    url: conformance/secoda-conformance.yml
+  - type: MCPServer
+    url: mcp/secoda-mcp.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+# --- identity / site links ---
 - type: Website
   url: https://secoda.co
+- type: DeveloperPortal
+  url: https://docs.secoda.co
+- type: Documentation
+  url: https://docs.secoda.co
+- type: APIReference
+  url: https://docs.secoda.co/api/reference
+- type: GettingStarted
+  url: https://docs.secoda.co/api/reference/getting-started
+- type: Blog
+  url: https://www.secoda.co/blog
+- type: Pricing
+  url: https://www.secoda.co/pricing
+- type: SignUp
+  url: https://app.secoda.co/auth
+- type: Support
+  url: mailto:support@secoda.co
+- type: TermsOfService
+  url: https://docs.secoda.co/policies/terms-of-use
+- type: PrivacyPolicy
+  url: https://docs.secoda.co/policies/privacy-policy
+- type: ChangeLog
+  url: https://docs.secoda.co/changelog
+- type: StatusPage
+  url: https://status.secoda.co
+# --- artifacts (repo-wide canonical pointers the rating reads) ---
+- type: Authentication
+  url: authentication/secoda-authentication.yml
+- type: RateLimits
+  url: rate-limits/secoda-rate-limits.yml
+- type: Conventions
+  url: conventions/secoda-conventions.yml
+- type: ErrorCatalog
+  url: errors/secoda-problem-types.yml
+- type: Lifecycle
+  url: lifecycle/secoda-lifecycle.yml
+- type: Deprecation
+  url: lifecycle/secoda-lifecycle.yml
+- type: DataModel
+  url: data-model/secoda-data-model.yml
+- type: Conformance
+  url: conformance/secoda-conformance.yml
+- type: Compliance
+  url: https://docs.secoda.co/policies/security-policy
+- type: TrustCenter
+  url: https://trust.secoda.co
+- type: Security
+  url: https://docs.secoda.co/policies/security-policy
+- type: VulnerabilityDisclosure
+  url: security/secoda-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/secoda-domain-security.yml
+- type: MCPServer
+  url: mcp/secoda-mcp.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: WellKnown
+  url: well-known/secoda-well-known.yml
+- type: LLMsTxt
+  url: llms/secoda-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 17
+  pass: local-v1

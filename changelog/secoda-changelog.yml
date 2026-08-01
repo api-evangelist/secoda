@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.secoda.co/changelog
+docs: https://docs.secoda.co/changelog
+scheme: semver-dated
+current_version: v8.21.0
+notes: >-
+  Product changelog (not API-versioned). Entries are versioned vMAJOR.MINOR.PATCH
+  with a release date. Recent window captured below.
+entries:
+  - version: v8.21.0
+    date: '2025-10-28'
+    highlights:
+      - Dashboards — turn any question into a live, interactive dashboard.
+      - AI Analytics dashboard to measure Secoda AI adoption and ROI.
+      - MicroStrategy One and Starburst integrations for centralized metadata.
+  - version: v8.19.0
+    date: '2025-09-16'
+    highlights:
+      - Secoda AI Agents turn plain-language prompts into automated governance workflows.
+      - AI Automation block for metadata task automation.
+      - Microsoft Teams extension integration.
+  - version: v8.16.0
+    date: '2025-07-29'
+    highlights:
+      - AI Suggestions powered by metadata and usage history.
+      - Customizable notification rules to reduce alert fatigue.
+      - New Glean, Azure Data Lake, and ServiceNow integrations.
+  - version: v8.14.0
+    date: '2025-06-23'
+    highlights:
+      - Secoda AI now considers monitors, tests, queries, and governance policies.
+      - Advanced memory for personalized support.
+      - Entity Relationship Diagrams (ERDs) for data visualization.

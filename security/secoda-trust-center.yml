@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.secoda.co
+source: https://docs.secoda.co/policies/security-policy
+certifications:
+  - SOC 2
+compliance_notes: >-
+  SOC 2 compliance is stated in Secoda's security policy (report available on
+  request). Infrastructure runs on AWS (SOC 1/2/3, PCI-DSS, ISO 27001 compliant).
+  All connections use TLS 1.2+. Secoda requests read-only access to data sources
+  and retains customer data for a maximum of 24 hours (excluding credentials and
+  metadata).
+evidence:
+  - { source: https://docs.secoda.co/policies/security-policy, keywords: [soc 2, tls 1.2, aws] }
+  - { source: https://trust.secoda.co, keywords: [trust center] }
+policy_documents:
+  terms_of_use: https://docs.secoda.co/policies/terms-of-use
+  privacy_policy: https://docs.secoda.co/policies/privacy-policy
+  security_policy: https://docs.secoda.co/policies/security-policy

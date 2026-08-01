@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.secoda.co/api/reference
+docs: https://docs.secoda.co/api/reference
+format: http-status
+envelope: >-
+  Standard HTTP status codes. No application/problem+json (RFC 9457) envelope is
+  documented; error bodies are not schema-defined in the reference.
+problems:
+  - status: 400
+    title: Bad Request
+    meaning: Request parameters or body are invalid.
+    seen_on: [list, create, update]
+  - status: 404
+    title: Not Found
+    meaning: The specified resource does not exist.
+    seen_on: [get, update, delete]
+  - status: 429
+    title: Too Many Requests
+    meaning: Write rate limit (30 calls/min on POST/PUT/PATCH) exceeded.
+    remediation: Retry with delay / exponential backoff.
+    seen_on: [create, update]
+  - status: 500
+    title: Internal Server Error
+    meaning: Server-side failure.
+    seen_on: [all]
+success_notes:
+  - status: 204
+    title: No Content
+    meaning: Successful delete (no body).

@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.secoda.co/api/reference/helpful-information
+docs: https://docs.secoda.co/api/reference/helpful-information
+rate_limits:
+  - scope: write-operations
+    methods: [POST, PUT, PATCH]
+    applies_to: all entity endpoints
+    limit_count: 30
+    window: 1m
+    limit: 30 calls per minute
+    exceeded_status: 429
+    remediation: >-
+      Requests over the limit receive HTTP 429. Implement retry-with-delay or
+      exponential backoff.
+notes:
+  - Read (GET) operations are not documented with an explicit numeric limit.
+  - No documented rate-limit response headers (X-RateLimit-*).

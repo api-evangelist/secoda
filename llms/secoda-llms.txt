@@ -1,0 +1,371 @@
+# Secoda
+
+## Documentation
+
+- [Getting started with Secoda](https://docs.secoda.co/readme.md): Welcome to Secoda! Your data organization's single source of truth for data.
+- [Secoda as an admin](https://docs.secoda.co/readme/secoda-as-an-admin.md): Here are some important Admin tasks to get your workplace up and running.
+- [Deployment options](https://docs.secoda.co/readme/secoda-as-an-admin/deployment-options.md): Check out the deployment options for setting up Secoda.
+- [Sign in options](https://docs.secoda.co/readme/secoda-as-an-admin/sign-in-options.md): Learn about Secoda's options for logging into the app through single sign on and email
+- [Settings](https://docs.secoda.co/readme/secoda-as-an-admin/settings.md): Learn how to access and edit Account and Workspace settings.
+- [Connect your data](https://docs.secoda.co/readme/secoda-as-an-admin/connect-your-data.md): Start documenting and making your data discoverable for your team by connecting your data resources to Secoda.
+- [Define service accounts](https://docs.secoda.co/readme/secoda-as-an-admin/connect-your-data/define-service-accounts.md): To make your popularity calculations more accurate, you'll want to mark emails as Service Accounts.
+- [Choose which schemas to extract](https://docs.secoda.co/readme/secoda-as-an-admin/connect-your-data/hide-unwanted-datasets.md): You might not need all of your schemas within Secoda. This page will walk you through how to hide these from viewers and editors on your team.
+- [Customize the workspace](https://docs.secoda.co/readme/secoda-as-an-admin/customize-the-workspace.md): As an admin, you can change the appearance of your Secoda workspace to suit your team.
+- [Populate Questions with FAQs](https://docs.secoda.co/readme/secoda-as-an-admin/populate-questions-with-faqs.md): Use our Questions feature to add frequently asked questions that might help your members navigating the workspace.
+- [Invite your teammates](https://docs.secoda.co/readme/secoda-as-an-admin/invite-teammates.md): Secoda is a tool built for collaboration. This section will go over how to add members of your team, how to control their permissions and roles, and how to group them.
+- [Joining and navigating between multiple workspaces](https://docs.secoda.co/readme/secoda-as-an-admin/invite-teammates/joining-and-navigating-between-multiple-workspaces.md): You are able to join more than one Secoda workspace with the same email.
+- [Onboard new users](https://docs.secoda.co/readme/secoda-as-an-admin/onboarding-new-users.md): Learn some best practices on rolling out Secoda to new users.
+- [Onboarding email templates](https://docs.secoda.co/readme/secoda-as-an-admin/onboarding-new-users/onboarding-email-templates.md): Below you’ll find Secoda’s suggested email templates for various stakeholders.
+- [Onboarding Homepage template](https://docs.secoda.co/readme/secoda-as-an-admin/onboarding-new-users/onboarding-homepage-template.md): Create a Document explaining to new users what Secoda is and how they can use it
+- [Training session guide](https://docs.secoda.co/readme/secoda-as-an-admin/onboarding-new-users/training-session-guide.md): A guide of what you might want to cover in your onboarding sessions
+- [User engagement and adoption](https://docs.secoda.co/readme/secoda-as-an-admin/user-engagement-and-adoption.md): This page will outline some outreach strategies to increase engagement with the tool.
+- [Tips and tricks to share with new users](https://docs.secoda.co/readme/secoda-as-an-admin/user-engagement-and-adoption/tips-and-tricks-to-share-with-new-users.md)
+- [Secoda as an editor](https://docs.secoda.co/readme/secoda-as-an-editor.md): Here you can find resources for new Editors within Secoda
+- [Secoda as a viewer](https://docs.secoda.co/readme/secoda-as-a-viewer.md): Viewers within Secoda are mainly business users who need insight into the metadata within their organization.
+- [Introduction guide](https://docs.secoda.co/readme/secoda-as-a-viewer/introduction-guide.md): This Viewer guide provides new users with an overview of the tool
+- [Requesting changes in Secoda](https://docs.secoda.co/readme/secoda-as-a-viewer/requesting-changes-in-secoda.md): Learn how Viewers can request changes and make data contribution collaborative on any Resource in Secoda.
+- [Best practices](https://docs.secoda.co/best-practices.md): Check out our documentation around best practices when working with Secoda.
+- [Setting up your workspace](https://docs.secoda.co/best-practices/best-practices-for-setting-up-your-workspace.md): Learn about some best practices for setting up that we've seen work well
+- [Integrating Secoda into existing workflows](https://docs.secoda.co/best-practices/integrating-secoda-into-existing-workflows.md): Check out best strategies on integrating Secoda into your current day-to-day flows.
+- [Documentation best practices](https://docs.secoda.co/best-practices/documentation-best-practices.md): Use cases for using Secoda to automate repetitive documentation tasks, saving time for your data team.
+- [Glossary best practices](https://docs.secoda.co/best-practices/dictionary-best-practices.md): Read up on some best practices and strategies around building out a Glossary within Secoda
+- [Data governance](https://docs.secoda.co/best-practices/data-governance.md): This page will outline some best practices around data governance
+- [Data quality](https://docs.secoda.co/best-practices/data-quality.md): This page will outline some best practices around data quality
+- [Clean up your data](https://docs.secoda.co/best-practices/clean-up-your-data.md): Clean up your data resources with Secoda's help.
+- [Tool migrations using Secoda](https://docs.secoda.co/best-practices/tool-migrations-using-secoda.md): Migrating from one tool to another? Check out the following best practices to ease in the transition.
+- [Slack <> Questions workflow](https://docs.secoda.co/best-practices/slack-less-than-greater-than-questions-workflow.md): Best practices for using Slack to answer user questions
+- [Defining resources workflow](https://docs.secoda.co/best-practices/verifying-resources-workflow.md): Best practices around collaborating with your team to define resources in your workspace
+- [Streamline data access: Private and public teams workflow](https://docs.secoda.co/best-practices/streamline-data-access-private-and-public-teams-workflow.md): Check out this workflow for managing metadata access in your workspace by using Teams.
+- [Exposing Secoda to external clients](https://docs.secoda.co/best-practices/external-teams.md): Best practices for exposing Secoda to your external customers or clients
+- [Resource management](https://docs.secoda.co/resource-and-metadata-management.md): This section will guide you in editing and improving the context for your data resources in your workspace.
+- [Editing properties](https://docs.secoda.co/resource-and-metadata-management/add-documentation.md): After you've connected your data to Secoda, you can start adding documentation and metadata to your data to enrich it for your users.
+- [AI description editor](https://docs.secoda.co/resource-and-metadata-management/add-documentation/ai-description-editor.md): Use Secoda's AI Description Editor to efficiently generate and edit resource descriptions.
+- [Bulk editing](https://docs.secoda.co/resource-and-metadata-management/add-documentation/bulk-editing-resources.md): This section will go over how to edit data resources in bulk- descriptions, columns, tables, badges, tags, etc.
+- [Propagation](https://docs.secoda.co/resource-and-metadata-management/add-documentation/propagating-metadata.md): This section will go over how to propagate properties between resources.
+- [Templates](https://docs.secoda.co/resource-and-metadata-management/add-documentation/templates.md): Admins can create templates for data questions, documents and glossary terms, and more.
+- [Resource sidesheet](https://docs.secoda.co/resource-and-metadata-management/resource-sidebar.md): Explaining the information in the sidesheet.
+- [Assigning owners](https://docs.secoda.co/resource-and-metadata-management/assigning-owners.md): Assigning owners to resources
+- [Custom properties](https://docs.secoda.co/resource-and-metadata-management/adding-custom-properties.md): Custom properties allow you add additional context to resources in Secoda.
+- [Tags](https://docs.secoda.co/resource-and-metadata-management/tags.md): Create Tags in Secoda to label resources across the workspace with additional metadata.
+- [Custom tags](https://docs.secoda.co/resource-and-metadata-management/tags/custom-tags.md): Creating and managing custom tags in Secoda to help categorize your resources.
+- [PII identifier](https://docs.secoda.co/resource-and-metadata-management/tags/auto-pii-tagging.md): Secoda's PII identifier finds PII columns, tables or dashboards in your data in Secoda.
+- [Verified identifier](https://docs.secoda.co/resource-and-metadata-management/tags/verified-tag.md): Verified tags in Secoda are another way to categorize your resources by giving them a "stamp of approval".
+- [Import and export resources](https://docs.secoda.co/resource-and-metadata-management/import-and-export-data.md): Edit the properties or bring in new resources through this feature.
+- [Related resources](https://docs.secoda.co/resource-and-metadata-management/relating-resources.md): This section will go over how to relate resources.
+- [User management](https://docs.secoda.co/user-management.md): This guide details the setup and management of Roles, Groups, Teams, and Collections in Secoda, ensuring secure and efficient access control across the platform.
+- [Roles](https://docs.secoda.co/user-management/roles.md)
+- [Teams](https://docs.secoda.co/user-management/teams.md): Teams is user friendly way to view and access your team's data within Secoda.
+- [Groups](https://docs.secoda.co/user-management/groups.md): Organize your members into Groups by team or job function
+- [Integrations](https://docs.secoda.co/integrations.md): This page walks through the current integrations that Secoda supports and what's on the roadmap.
+- [Integration settings](https://docs.secoda.co/integrations/integration-settings.md): Customize and manage your integration after setup.
+- [Data warehouses](https://docs.secoda.co/integrations/data-warehouses.md)
+- [BigQuery](https://docs.secoda.co/integrations/data-warehouses/bigquery-integration.md): An overview of the BigQuery integration with Secoda
+- [BigQuery Metadata Extracted](https://docs.secoda.co/integrations/data-warehouses/bigquery-integration/bigquery-metadata.md): List of all the metadata that Secoda pulls from/pushes to BigQuery
+- [Databricks](https://docs.secoda.co/integrations/data-warehouses/databricks-integration.md): An overview of the Databricks integration with Secoda
+- [Databricks Metadata Extracted](https://docs.secoda.co/integrations/data-warehouses/databricks-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from Databricks
+- [Redshift](https://docs.secoda.co/integrations/data-warehouses/redshift-integration.md): An overview of the Redshift integration with Secoda
+- [Redshift Metadata Extracted](https://docs.secoda.co/integrations/data-warehouses/redshift-integration/redshift-metadata.md): List of all the metadata that Secoda pulls from/pushes to Snowflake
+- [Snowflake](https://docs.secoda.co/integrations/data-warehouses/snowflake-integration.md): An overview of the Snowflake integration with Secoda
+- [Snowflake Metadata Extracted](https://docs.secoda.co/integrations/data-warehouses/snowflake-integration/snowflake-metadata.md): List of all the metadata that Secoda pulls from/pushes to Snowflake
+- [Snowflake Costs](https://docs.secoda.co/integrations/data-warehouses/snowflake-integration/snowflake-costs.md): Learn about and set monitors on your Snowflake costs in Secoda
+- [Snowflake Native App](https://docs.secoda.co/integrations/data-warehouses/snowflake-integration/native-snowflake.md)
+- [Apache Hive](https://docs.secoda.co/integrations/data-warehouses/apache-hive.md): An overview of the Hive integration with Secoda
+- [Apache Hive Metadata Extracted](https://docs.secoda.co/integrations/data-warehouses/apache-hive/metadata-extracted.md): List of all the metadata that Secoda pulls from/pushes to Apache Hive
+- [Azure Synapse](https://docs.secoda.co/integrations/data-warehouses/azure-synapse.md): An overview of the Azure Synapse integration with Secoda
+- [Azure Synapse Metadata Extracted](https://docs.secoda.co/integrations/data-warehouses/azure-synapse/metadata-extracted.md): List of all the metadata that Secoda pulls from to Azure Synapse
+- [MotherDuck](https://docs.secoda.co/integrations/data-warehouses/motherduck.md): An overview of the MotherDuck integration with Secoda
+- [MotherDuck Metadata Extracted](https://docs.secoda.co/integrations/data-warehouses/motherduck/motherduck-metadata-extracted.md): List of all the metadata that Secoda pulls from MotherDuck
+- [ClickHouse](https://docs.secoda.co/integrations/data-warehouses/clickhouse.md)
+- [ClickHouse Metadata Extracted](https://docs.secoda.co/integrations/data-warehouses/clickhouse/clickhouse-metadata-extracted.md): List of all the metadata that Secoda pulls from ClickHouse
+- [Databases](https://docs.secoda.co/integrations/databases.md)
+- [Druid](https://docs.secoda.co/integrations/databases/druid.md): An overview of the Druid integration with Secoda
+- [Druid Metadata Extracted](https://docs.secoda.co/integrations/databases/druid/druid-metadata-extracted.md): List of all the metadata that Secoda pulls from Druid
+- [MySQL](https://docs.secoda.co/integrations/databases/mysql-integration.md): An overview of the MySQL integration with Secoda
+- [MySQL Metadata Extracted](https://docs.secoda.co/integrations/databases/mysql-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from MySQL
+- [Microsoft SQL Server](https://docs.secoda.co/integrations/databases/microsoft-sql-server.md): Microsoft SQL Server Integration with Secoda
+- [Microsoft SQL Server Metadata Extracted](https://docs.secoda.co/integrations/databases/microsoft-sql-server/metadata-extracted.md): List of all the metadata that Secoda pulls from Microsoft SQL Server
+- [Oracle](https://docs.secoda.co/integrations/databases/oracle-integration.md): An overview of the Oracle integration with Secoda
+- [Oracle Metadata Extracted](https://docs.secoda.co/integrations/databases/oracle-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from Oracle
+- [Salesforce](https://docs.secoda.co/integrations/databases/salesforce-integration.md): An overview of the Salesforce integration with Secoda
+- [Salesforce Metadata Extracted](https://docs.secoda.co/integrations/databases/salesforce-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from Salesforce
+- [Postgres](https://docs.secoda.co/integrations/databases/postgres-integration.md): An overview of the Postgres integration with Secoda
+- [Postgres Metadata Extracted](https://docs.secoda.co/integrations/databases/postgres-integration/postgres-metadata.md): List of all the metadata that Secoda pulls from Postgres
+- [MongoDB](https://docs.secoda.co/integrations/databases/mongodb.md): An overview of the MongoDB integration with Secoda
+- [MongoDB Metadata Extracted](https://docs.secoda.co/integrations/databases/mongodb/data-type-conversion.md): List of all the metadata that Secoda pulls MongoDB
+- [Azure Cosmos DB](https://docs.secoda.co/integrations/databases/azure-cosmos-db.md): An overview of the Azure Cosmos DB integration with Secoda
+- [Azure Cosmos DB Metadata Extracted](https://docs.secoda.co/integrations/databases/azure-cosmos-db/metadata-extracted.md): List of all the metadata that Secoda pulls from Azure Cosmos DB
+- [SingleStore](https://docs.secoda.co/integrations/databases/singlestore.md)
+- [SingleStore Metadata Extracted](https://docs.secoda.co/integrations/databases/singlestore/singlestore-metadata-extracted.md): List of all the metadata that Secoda pulls from SingleStore
+- [DynamoDB](https://docs.secoda.co/integrations/databases/dynamodb.md): An overview of the DynamoDB integration with Secoda
+- [DynamoDB Metadata Extracted](https://docs.secoda.co/integrations/databases/dynamodb/dynamodb-metadata-extracted.md): List of all the metadata that Secoda pulls from DynamoDB
+- [Data visualization tools](https://docs.secoda.co/integrations/data-visualization-tools.md)
+- [Amplitude](https://docs.secoda.co/integrations/data-visualization-tools/amplitude-integration.md): An overview of the Amplitude integration with Secoda
+- [Amplitude Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/amplitude-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from Amplitude
+- [Looker](https://docs.secoda.co/integrations/data-visualization-tools/looker-integration.md): An overview of the Looker integration with Secoda
+- [Looker Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/looker-integration/looker-metadata.md): List of all the metadata that Secoda pulls from Looker
+- [Looker Studio](https://docs.secoda.co/integrations/data-visualization-tools/google-data-studio.md): An overview of the Looker Studio integration with Secoda
+- [Looker Studio Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/google-data-studio/metadata-extracted.md): List of all the metadata that Secoda pulls from Google Data Studio
+- [Metabase](https://docs.secoda.co/integrations/data-visualization-tools/metabase.md): An overview of the Metabase integration with Secoda
+- [Metabase Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/metabase/metadata-extracted.md): List of all the metadata that Secoda pulls from Metabase
+- [Mixpanel](https://docs.secoda.co/integrations/data-visualization-tools/mixpanel.md): An overview of the Mixpanel integration with Secoda
+- [Mixpanel Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/mixpanel/metadata-extracted.md): List of all the metadata that Secoda pulls from Mixpanel
+- [Mode](https://docs.secoda.co/integrations/data-visualization-tools/mode.md): An overview of the Mode integration with Secoda
+- [Mode Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/mode/metadata-extracted.md): List of all the metadata that Secoda pulls from Mode
+- [Power BI](https://docs.secoda.co/integrations/data-visualization-tools/power-bi.md): An overview of the PowerBI integration with Secoda
+- [Power BI Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/power-bi/metadata-extracted.md): List of all the metadata that Secoda pulls from Power BI
+- [QuickSight](https://docs.secoda.co/integrations/data-visualization-tools/quicksight-integration.md): An overview of the AWS QuickSight integration with Secoda
+- [QuickSight Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/quicksight-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from QuickSight
+- [Retool](https://docs.secoda.co/integrations/data-visualization-tools/retool-integration.md): An overview of the Retool integration with Secoda
+- [Retool Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/retool-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from Retool
+- [Redash](https://docs.secoda.co/integrations/data-visualization-tools/redash.md): An overview of the Redash integration with Secoda
+- [Redash Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/redash/metadata-extracted.md): List of all the metadata that Secoda pulls from Redash
+- [Sigma](https://docs.secoda.co/integrations/data-visualization-tools/sigma-integration.md): An overview of the Sigma integration with Secoda
+- [Sigma Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/sigma-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from Sigma
+- [Tableau](https://docs.secoda.co/integrations/data-visualization-tools/tableau-integration.md): An overview of the Tableau integration with Secoda
+- [Tableau Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/tableau-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from Tableau
+- [ThoughtSpot](https://docs.secoda.co/integrations/data-visualization-tools/thoughtspot.md): An overview of the Thoughtspot integration with Secoda
+- [ThoughtSpot Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/thoughtspot/thoughtspot-metadata-extracted.md): List of all the metadata that Secoda pulls from ThoughtSpot
+- [Cluvio](https://docs.secoda.co/integrations/data-visualization-tools/cluvio.md): An overview of the Cluvio integration with Secoda
+- [Cluvio Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/cluvio/cluvio-metadata-extracted.md): List of all the metadata that Secoda pulls from Cluvio
+- [Hashboard](https://docs.secoda.co/integrations/data-visualization-tools/hashboard.md): An overview of the Hashboard integration with Secoda
+- [Hashboard Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/hashboard/hashboard-metadata-extracted.md): List of all the metadata that Secoda pulls from Hashboard
+- [Lightdash](https://docs.secoda.co/integrations/data-visualization-tools/lightdash.md): An overview of the Lightdash integration with Secoda
+- [Lightdash Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/lightdash/lightdash-metadata-extracted.md): List of all the metadata that Secoda pulls from Lightdash
+- [Preset](https://docs.secoda.co/integrations/data-visualization-tools/preset.md): An overview of the Preset integration with Secoda
+- [Preset Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/preset/preset-metadata-extracted.md)
+- [Superset](https://docs.secoda.co/integrations/data-visualization-tools/superset.md): An overview of the Superset integration with Secoda
+- [Superset Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/superset/superset-metadata-extracted.md)
+- [SQL Server Reporting Services](https://docs.secoda.co/integrations/data-visualization-tools/sql-server-reporting-services.md): An overview of the SQL Server Reporting Services integration with Secoda
+- [SQL Server Reporting Services Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/sql-server-reporting-services/sql-server-reporting-services-metadata-extracted.md)
+- [Hex](https://docs.secoda.co/integrations/data-visualization-tools/hex.md): An overview of the Hex integration with Secoda
+- [Hex Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/hex/hex-metadata-extracted.md): List of all the metadata that Secoda pulls from Hex
+- [Omni](https://docs.secoda.co/integrations/data-visualization-tools/omni.md): An overview of the Omni integration with Secoda
+- [Omni Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/omni/omni-metadata-extracted.md): List of all the metadata that Secoda pulls from Omni
+- [MicroStrategy One](https://docs.secoda.co/integrations/data-visualization-tools/microstrategy-one.md): An overview of Secoda's MicroStrategy One integration
+- [MicroStrategy One Metadata Extracted](https://docs.secoda.co/integrations/data-visualization-tools/microstrategy-one/microstrategy-one-metadata-extracted.md): List of all the metadata that Secoda pulls from MicroStrategy One
+- [Data pipeline tools](https://docs.secoda.co/integrations/data-pipeline-tools.md)
+- [Census](https://docs.secoda.co/integrations/data-pipeline-tools/census.md): An overview of the Census integration with Secoda
+- [Census Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/census/census-metadata-extracted.md): List of all the metadata that Secoda pulls from Census
+- [Stitch](https://docs.secoda.co/integrations/data-pipeline-tools/stitch.md): An overview of the Stitch integration with Secoda
+- [Stitch Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/stitch/stitch-metadata-extracted.md): List of all the metadata that Secoda pulls from Stitch
+- [Airflow](https://docs.secoda.co/integrations/data-pipeline-tools/airflow.md): An overview of the Airflow integration with Secoda
+- [Airflow Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/airflow/metadata-extracted.md): List of all the metadata that Secoda pulls from Airflow
+- [Dagster](https://docs.secoda.co/integrations/data-pipeline-tools/dagster.md): An overview of the Dagster integration with Secoda
+- [Dagster Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/dagster/metadata-extracted.md): List of all the metadata that Secoda pulls from Dagster
+- [Fivetran](https://docs.secoda.co/integrations/data-pipeline-tools/fivetran-integration.md): An overview of the Fivetran integration with Secoda
+- [Fivetran Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/fivetran-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from Fivetran
+- [Glue](https://docs.secoda.co/integrations/data-pipeline-tools/aws-glue-integration.md): An overview of the AWS Glue integration with Secoda
+- [Glue Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/aws-glue-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from Glue
+- [Hightouch](https://docs.secoda.co/integrations/data-pipeline-tools/hightouch.md): An overview of the Hightouch integration with Secoda
+- [Hightouch Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/hightouch/metadata-extracted.md): List of all the metadata that Secoda pulls from Hightouch
+- [Apache Kafka](https://docs.secoda.co/integrations/data-pipeline-tools/apache-kafka.md): An overview of Apache Kafka integration with Secoda
+- [Apache Kafka Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/apache-kafka/apache-kafka-metadata-extracted.md): List of all the metadata that Secoda pulls from Apache Kafka
+- [Confluent Cloud](https://docs.secoda.co/integrations/data-pipeline-tools/confluent-cloud.md): An overview of Confluent Cloud integration with Secoda
+- [Confluent Cloud Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/confluent-cloud/confluent-cloud-metadata-extracted.md): List of all the metadata that Secoda pulls from Confluent Cloud
+- [Polytomic](https://docs.secoda.co/integrations/data-pipeline-tools/polytomic.md): An overview of the Polytomic integration with Secoda
+- [Polytomic Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/polytomic/metadata-extracted.md): List of all the metadata that Secoda pulls from Polytomic
+- [Matillion](https://docs.secoda.co/integrations/data-pipeline-tools/matillion.md): An overview of the Matillion integration with Secoda
+- [Matillion Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/matillion/matillion-metadata-extracted.md): List of all the metadata that Secoda pulls from Matillion
+- [Airbyte](https://docs.secoda.co/integrations/data-pipeline-tools/airbyte.md)
+- [Airbyte Extracted Metadata](https://docs.secoda.co/integrations/data-pipeline-tools/airbyte/airbyte-extracted-metadata.md)
+- [Informatica](https://docs.secoda.co/integrations/data-pipeline-tools/informatica.md): An overview of the Informatica Data Integration with Secoda
+- [Informatica Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/informatica/informatica-metadata-extracted.md): List of all the metadata that Secoda pulls from Informatica
+- [Azure Data Factory](https://docs.secoda.co/integrations/data-pipeline-tools/azure-data-factory.md): An overview of the Azure Data Factory Integration with Secoda
+- [Azure Data Factory Metadata Extracted](https://docs.secoda.co/integrations/data-pipeline-tools/azure-data-factory/azure-data-factory-metadata-extracted.md): List of all the metadata that Secoda pulls from Azure Data Factory.
+- [Data transformation tools](https://docs.secoda.co/integrations/data-transformation-tools.md)
+- [dbt](https://docs.secoda.co/integrations/data-transformation-tools/readme-1.md): An overview of the dbt integrations with Secoda
+- [dbt Cloud](https://docs.secoda.co/integrations/data-transformation-tools/readme-1/dbt.md): An overview of the dbt Cloud integration with Secoda
+- [dbt Cloud Metadata Extracted](https://docs.secoda.co/integrations/data-transformation-tools/readme-1/dbt/metadata-extracted.md): List of all the metadata that Secoda pulls from dbt Cloud
+- [dbt Core](https://docs.secoda.co/integrations/data-transformation-tools/readme-1/dbt-core.md): An overview of the dbt Core integration with Secoda
+- [dbt Core Metadata Extracted](https://docs.secoda.co/integrations/data-transformation-tools/readme-1/dbt-core/metadata-extracted.md): List of all the metadata that Secoda pulls from dbt Core
+- [Coalesce](https://docs.secoda.co/integrations/data-transformation-tools/coalesce.md): An overview of the Coalesce Integration with Secoda
+- [Coalesce Metadata Extracted](https://docs.secoda.co/integrations/data-transformation-tools/coalesce/coalesce-metadata-extracted.md): List of all the metadata that Secoda pulls from Coalesce
+- [Dataform](https://docs.secoda.co/integrations/data-transformation-tools/dataform.md): An overview of the Dataform integration with Secoda
+- [Dataform Metadata Extracted](https://docs.secoda.co/integrations/data-transformation-tools/dataform/dataform-metadata-extracted.md): List of all the metadata that Secoda pulls from Dataform
+- [Data quality tools](https://docs.secoda.co/integrations/data-quality-tools.md)
+- [Cyera](https://docs.secoda.co/integrations/data-quality-tools/cyera.md): An overview of Cyera integration with Secoda
+- [Dataplex](https://docs.secoda.co/integrations/data-quality-tools/dataplex.md): An overview of Dataplex integration with Secoda
+- [Dataplex Metadata Extracted](https://docs.secoda.co/integrations/data-quality-tools/dataplex/dataplex-metadata-extracted.md): List of all the metadata that Secoda pulls from Dataplex
+- [Great Expectations](https://docs.secoda.co/integrations/data-quality-tools/great-expectations-integration.md): An overview of the Great Expectations integration with Secoda
+- [Great Expectations Metadata Extracted](https://docs.secoda.co/integrations/data-quality-tools/great-expectations-integration/metadata-extracted.md): List of all the metadata that Secoda pulls from Great Expectations
+- [Monte Carlo](https://docs.secoda.co/integrations/data-quality-tools/monte-carlo.md): An overview of the Monte Carlo integration with Secoda
+- [Monte Carlo Metadata Extracted](https://docs.secoda.co/integrations/data-quality-tools/monte-carlo/monte-carlo-metadata-extracted.md): List of all the metadata that Secoda pulls from Monte Carlo
+- [Soda](https://docs.secoda.co/integrations/data-quality-tools/soda.md): An overview of the Soda Cloud integration with Secoda
+- [Soda Metadata Extracted](https://docs.secoda.co/integrations/data-quality-tools/soda/soda-metadata-extracted.md): List of all the metadata that Secoda pulls from Soda
+- [Data lakes](https://docs.secoda.co/integrations/data-lakes.md)
+- [Google Cloud Storage](https://docs.secoda.co/integrations/data-lakes/google-cloud-storage.md): An overview of Google Cloud Storage integration with Secoda
+- [GCS Metadata Extracted](https://docs.secoda.co/integrations/data-lakes/google-cloud-storage/gcs-metadata-extracted.md): List of all the metadata that Secoda pulls from Google Cloud Storage
+- [AWS S3](https://docs.secoda.co/integrations/data-lakes/aws-s3.md): An overview of the AWS S3 integration with Secoda
+- [S3 Metadata Extracted](https://docs.secoda.co/integrations/data-lakes/aws-s3/s3-metadata-extracted.md): List of all the metadata that Secoda pulls from AWS S3
+- [Azure Data Lake](https://docs.secoda.co/integrations/data-lakes/azure-data-lake.md): An overview of the Azure Data Lake integration with Secoda
+- [ADL Metadata Extracted](https://docs.secoda.co/integrations/data-lakes/azure-data-lake/adl-metadata-extracted.md): List of all the metadata that Secoda pulls from Azure Data Lake
+- [Query engines](https://docs.secoda.co/integrations/query-engines.md)
+- [Trino](https://docs.secoda.co/integrations/query-engines/trino.md): An overview of the Trino integration with Secoda
+- [Trino Metadata Extracted](https://docs.secoda.co/integrations/query-engines/trino/trino-metadata-extracted.md): List of all the metadata that Secoda pulls from Trino
+- [Starburst](https://docs.secoda.co/integrations/query-engines/starburst.md): An overview of the Starburst integration with Secoda
+- [Starburst Metadata Extracted](https://docs.secoda.co/integrations/query-engines/starburst/starburst-metadata-extracted.md): List of all the metadata that Secoda pulls from Starburst
+- [Custom integrations](https://docs.secoda.co/integrations/custom-integrations-and-marketplace.md): Unlock the full potential of Secoda by creating custom integrations tailored to your unique data environment.
+- [File upload](https://docs.secoda.co/integrations/custom-integrations-and-marketplace/custom-integration.md): How to build a custom integration in Secoda using a CSV or JSONL file.
+- [CSV file format](https://docs.secoda.co/integrations/custom-integrations-and-marketplace/custom-integration/create-your-csv.md)
+- [JSONL file format](https://docs.secoda.co/integrations/custom-integrations-and-marketplace/custom-integration/create-your-jsonl-file.md): This page will describe how to create a JSONL file for upload into Secoda.
+- [Maintain your resources](https://docs.secoda.co/integrations/custom-integrations-and-marketplace/custom-integration/maintain-your-resources.md)
+- [Marketplace](https://docs.secoda.co/integrations/custom-integrations-and-marketplace/secoda-sdk-custom-integration.md): Learn how to build a Marketplace integration using the Secoda SDK.
+- [Secoda SDK](https://docs.secoda.co/integrations/custom-integrations-and-marketplace/secoda-sdk-custom-integration/sdk-documentation.md): Documentation for the Secoda Software Development Kit.
+- [Upload and connect your marketplace integration](https://docs.secoda.co/integrations/custom-integrations-and-marketplace/secoda-sdk-custom-integration/upload-and-connect-your-custom-integration.md): Once your integration code is ready, the next step is to upload it to Secoda.
+- [Publish the integration](https://docs.secoda.co/integrations/custom-integrations-and-marketplace/secoda-sdk-custom-integration/publishing-to-marketplace.md): This document outlines the procedure for submitting your custom integration for review.
+- [Example integrations](https://docs.secoda.co/integrations/custom-integrations-and-marketplace/secoda-sdk-custom-integration/example-integrations.md)
+- [Secoda fields explained](https://docs.secoda.co/integrations/custom-integrations-and-marketplace/secoda-fields-explained.md): This page explains all the fields that are used to add metadata to the resources in Secoda.
+- [Security](https://docs.secoda.co/integrations/security.md)
+- [Connecting via Reverse SSH Tunnel](https://docs.secoda.co/integrations/security/connecting-via-secoda-agent-reverse-ssh-tunnel.md): This page walks through connecting your data sources via a Reverse SSH Tunnel
+- [Reverse SSH Tunnel FAQs](https://docs.secoda.co/integrations/security/connecting-via-secoda-agent-reverse-ssh-tunnel/reverse-ssh-tunnel-faqs.md)
+- [Connecting via SSH Tunnel](https://docs.secoda.co/integrations/security/connecting-via-ssh-tunnel.md): This page walks through connecting your data sources via a direct SSH tunnel
+- [Connecting via VPC Peering](https://docs.secoda.co/integrations/security/connecting-via-vpc-peering.md): This page walks through the Secoda and Connecting via VPC Peering that Secoda supports
+- [Connecting via AWS Cross Account Role](https://docs.secoda.co/integrations/security/connecting-via-aws-cross-account-role.md): This page walks through Connecting an integration via an AWS Cross Account Role
+- [Connecting via AWS PrivateLink](https://docs.secoda.co/integrations/security/connecting-via-aws-privatelink.md)
+- [Snowflake via AWS PrivateLink](https://docs.secoda.co/integrations/security/connecting-via-aws-privatelink/snowflake-via-aws-privatelink.md)
+- [AWS Service via AWS PrivateLink](https://docs.secoda.co/integrations/security/connecting-via-aws-privatelink/aws-service-via-aws-privatelink.md)
+- [Improve Concurrency on your SSH Bastion](https://docs.secoda.co/integrations/security/recommendations-to-improve-ssh-tunnel-concurrency-on-ssh-bastion.md)
+- [Push metadata to source](https://docs.secoda.co/integrations/push-metadata-to-source.md): Secoda is able to push metadata back into the source for select integrations.
+- [Extensions](https://docs.secoda.co/extensions.md): This page walks through the current extensions that Secoda supports.
+- [Chrome](https://docs.secoda.co/extensions/chrome-extension.md): Access Secoda metadata and features without leaving your other data tools by adding the Chrome extension.
+- [Confluence](https://docs.secoda.co/extensions/confluence.md): An overview of the Confluence integration with Secoda
+- [Confluence Metadata Extracted](https://docs.secoda.co/extensions/confluence/metadata-extracted.md): List of all the metadata that Secoda pulls from Confluence
+- [Confluence best practices](https://docs.secoda.co/extensions/confluence/confluence-best-practices.md): Best practices on integrating Confluence in Secoda
+- [GitHub](https://docs.secoda.co/extensions/github.md): An overview of the GitHub extension with Secoda
+- [Glean](https://docs.secoda.co/extensions/glean.md): An overview of the Glean extension with Secoda
+- [Jira](https://docs.secoda.co/extensions/jira.md): An overview of the Jira integration with Secoda
+- [Jira Metadata Extracted](https://docs.secoda.co/extensions/jira/metadata-extracted.md): List of all the metadata that Secoda pulls from Jira
+- [Microsoft Teams](https://docs.secoda.co/extensions/microsoft-teams.md): Seamlessly integrate Secoda with your Microsoft Teams
+- [PagerDuty](https://docs.secoda.co/extensions/pager-duty.md)
+- [Slack](https://docs.secoda.co/extensions/slack-connection.md): Seamlessly integrate Secoda with your Slack workspace
+- [Slack user guide](https://docs.secoda.co/extensions/slack-connection/slack-user-guide.md): An end-user guide to using Secoda's Slack integration
+- [ServiceNow](https://docs.secoda.co/extensions/servicenow.md): An overview of the ServiceNow extension with Secoda
+- [Features](https://docs.secoda.co/features.md): Get to know Secoda's features in depth with the following pages.
+- [Access requests](https://docs.secoda.co/features/access-requests.md)
+- [Activity log](https://docs.secoda.co/features/activity-log.md): The full history of a resource in just a few clicks
+- [Analytics](https://docs.secoda.co/features/analytics-dashboard.md): Take a look into the usage of your workspace
+- [Announcements](https://docs.secoda.co/features/announcements.md): Send announcements to Secoda users in your workspaces
+- [Audit log](https://docs.secoda.co/features/audit-log.md)
+- [Automations](https://docs.secoda.co/features/automations.md): Automate repetitive tasks by defining rules that bulk edit your metadata at scale
+- [Rule-based automations](https://docs.secoda.co/features/automations/automations-use-cases.md): Explore common use cases for Secoda's rule-based Automations features.
+- [AI-powered automations](https://docs.secoda.co/features/automations/ai-powered-automations.md): Explore common use cases for Secoda's AI-powered Automations
+- [Archive](https://docs.secoda.co/features/removing-stale-data.md): View resources that have been archived in your workspace
+- [Bookmarks](https://docs.secoda.co/features/bookmarks.md): Access important resources quickly using bookmarks.
+- [Catalog](https://docs.secoda.co/features/catalog.md): The Catalog is where the metadata from your connected integrations live.
+- [Collections](https://docs.secoda.co/features/collections-1.md): This guide demonstrates how to use collections in Secoda.
+- [Column profiling](https://docs.secoda.co/features/column-profiling.md): Secoda provides high level insight into the columns of your datasets with Column Profiling.
+- [Dashboards](https://docs.secoda.co/features/dashboards.md)
+- [Data previews](https://docs.secoda.co/features/data-previews.md): Preview your dashboards and tables with just one click
+- [Data quality score](https://docs.secoda.co/features/data-quality-score.md): Enhance your data quality with Secoda's DQS: A systematic tool to measure, track, and improve data quality.
+- [Documents](https://docs.secoda.co/features/documents.md): Create documents in Secoda on anything that you'd like your users to have more context on!
+- [Comments](https://docs.secoda.co/features/documents/comments.md): Collaborate with your teammates on Documents by using Comments
+- [Embeddings](https://docs.secoda.co/features/documents/embeds.md): Insert and embed resources from most online and collaboration tools within Secoda. You can also insert a generic embed.
+- [Entity relationship diagram](https://docs.secoda.co/features/entity-relationship-diagram.md)
+- [Filters](https://docs.secoda.co/features/filters.md): Streamline your data discovery by applying tailored filters to efficiently navigate and manage resources in Secoda.
+- [Glossary](https://docs.secoda.co/features/glossary.md): The data glossary is one spot for all of your organization's terms
+- [Homepage](https://docs.secoda.co/features/homepage.md): Creating custom homepages for all individual users as well as Teams
+- [Inbox](https://docs.secoda.co/features/data-inbox.md): The Inbox is your notification center in Secoda and where you’ll find important updates from your workspace.
+- [Lineage](https://docs.secoda.co/features/data-lineage.md): After connecting your data to Secoda, you'll be able to get a high level view of your lineage both at the table and column level.
+- [Manual lineage](https://docs.secoda.co/features/data-lineage/manual-lineage.md): Manual Lineage allows you to easily create lineage between any Resources in Secoda.
+- [Metrics](https://docs.secoda.co/features/metrics.md): Define and visualize your organization's Metrics
+- [Monitors](https://docs.secoda.co/features/monitoring.md): Create data monitors for visibility into the health of your data stack
+- [Use cases](https://docs.secoda.co/features/monitoring/monitoring-use-cases.md): Discover how Secoda users implement Monitoring use cases to boost data integrity and streamline processes at their organizations.
+- [Notifications](https://docs.secoda.co/features/notifications.md): Control when, where, and how often you receive notifications regarding the activity in your Secoda workspace.
+- [Policies](https://docs.secoda.co/features/policies.md): Policies enforce metadata standards across your workspace to ensure consistency, governance, and regulatory compliance.
+- [Popularity](https://docs.secoda.co/features/popularity.md): Learn more about how to identify your most popular sources and how Secoda measures this metric
+- [Publishing](https://docs.secoda.co/features/publishing.md): Secoda is built with functionality that allows you to "publish" your workplace once you feel it is ready for viewers to see.
+- [Queries](https://docs.secoda.co/features/queries.md): See how Secoda can run, document, and use queries.
+- [Query block](https://docs.secoda.co/features/queries/running-queries-in-secoda.md): Editors can embed live queries into table documentation, glossary terms, docs, questions and collections.
+- [Chart block](https://docs.secoda.co/features/queries/running-queries-in-secoda/adding-live-charts-to-documentation.md): After executing a query, you can choose to display it to viewers as a chart instead of a query. Below are the steps to share a query as a chart.
+- [Extracted queries](https://docs.secoda.co/features/queries/extracted-queries.md): Access and manage your query history and creation queries in Secoda.
+- [Questions](https://docs.secoda.co/features/ask-questions-in-secoda.md): Learn about our Questions feature here
+- [Search](https://docs.secoda.co/features/search.md): Best practices for how to use Search within Secoda
+- [Secoda AI](https://docs.secoda.co/features/ai-assistant.md): This page will go over the Secoda AI functionality.
+- [User guide](https://docs.secoda.co/features/ai-assistant/best-practices.md): This page will review the best ways to use Secoda AI to get the most effective results.
+- [Use cases](https://docs.secoda.co/features/ai-assistant/secoda-ai-use-cases.md): Explore example use cases of our AI Assistant simplifying data management for users at all skill levels.
+- [MCP server](https://docs.secoda.co/features/ai-assistant/secoda-mcp-server.md)
+- [Capabilities](https://docs.secoda.co/features/ai-assistant/secoda-ai-capabilities.md): What Secoda AI has access to answer questions about
+- [Security FAQs](https://docs.secoda.co/features/ai-assistant/security.md): This page reviews the security practices in place for Secoda AI.
+- [Agents](https://docs.secoda.co/features/ai-assistant/secoda-ai-agents.md): Turn your most valuable AI conversations into scheduled insights. Convert useful Secoda AI prompts into agents that run automatically and deliver results directly to your inbox.
+- [Sharing](https://docs.secoda.co/features/sharing-resources.md): Learn how to precisely control access to individual resources in Secoda, enabling tailored sharing settings distinct from broader team-based permissions.
+- [Views](https://docs.secoda.co/features/views.md): Quickly access and organize your resources in the Catalog and Search with customizable personal and team Views
+- [Enterprise](https://docs.secoda.co/enterprise.md)
+- [SAML](https://docs.secoda.co/enterprise/saml.md)
+- [Okta SAML](https://docs.secoda.co/enterprise/saml/okta-saml.md)
+- [OneLogin SAML](https://docs.secoda.co/enterprise/saml/onelogin-saml.md)
+- [Microsoft Azure AD SAML](https://docs.secoda.co/enterprise/saml/microsoft-azure-ad-saml.md): Set up Microsoft Azure SAML in three easy steps.
+- [Google SAML](https://docs.secoda.co/enterprise/saml/google-saml.md)
+- [SCIM](https://docs.secoda.co/enterprise/saml/scim.md): Manage users and groups from your identify provider.
+- [SAML attributes](https://docs.secoda.co/enterprise/saml/attributes.md): Manage users and groups from your SAML identity provider.
+- [Self-hosted](https://docs.secoda.co/enterprise/self-hosted-secoda.md): Self-hosted or on-premise
+- [Additional resources](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources.md)
+- [Additional environment variables](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources/additional-environment-variables.md)
+- [PowerBI OAuth Application (on-premise)](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/powerbi-oauth-application-on-premise.md)
+- [Google OAuth Application (on-premise)](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/google-oauth-application-on-premise.md)
+- [Github Application (on-premise)](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/github-application-on-premise.md)
+- [OpenAI API Key Creation (on-premise)](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/openai-api-key-creation-on-premise.md)
+- [AWS Bucket with Access Keys (on-premise)](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources/additional-environment-variables/aws-bucket-with-access-keys-on-premise.md)
+- [TLS/SSL (Docker compose)](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources/configure-tls-docker-compose.md): This guide is only for Docker-Compose.
+- [Automatic Updates (Docker compose)](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources/setup-automatic-updates.md)
+- [Backups (Docker compose)](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources/setup-backups.md)
+- [Outbound Connections](https://docs.secoda.co/enterprise/self-hosted-secoda/additional-resources/outbound-connections.md)
+- [Self-hosted changelog](https://docs.secoda.co/enterprise/self-hosted-secoda/self-hosted-changelog.md): Self-hosted images are updated less frequently than the Secoda SaaS platform. New updates and improvements to the Secoda self-hosted images are listed here.
+- [SIEM](https://docs.secoda.co/enterprise/siem.md): Secoda integrates with the following SIEM providers.
+- [Google Chronicle](https://docs.secoda.co/enterprise/siem/google-chronicle.md): Integrating Secoda logs with Google Chronicle SIEM
+- [API](https://docs.secoda.co/api.md): Welcome to the Secoda API Docs. Secoda API allows you to interact with your Secoda workspace through a HTTP API.
+- [Authentication](https://docs.secoda.co/api/authentication.md): Navigate to your workspace settings on Secoda. Click on the “API” to get a list of your API Keys.
+- [Reference](https://docs.secoda.co/api/reference.md)
+- [Getting Started](https://docs.secoda.co/api/reference/getting-started.md)
+- [Helpful Information](https://docs.secoda.co/api/reference/helpful-information.md)
+- [Audit Logs](https://docs.secoda.co/api/reference/audit-logs.md)
+- [Charts](https://docs.secoda.co/api/reference/charts.md)
+- [Collections](https://docs.secoda.co/api/reference/collections.md)
+- [Columns](https://docs.secoda.co/api/reference/columns.md)
+- [Custom Properties](https://docs.secoda.co/api/reference/custom-properties.md)
+- [Dashboards](https://docs.secoda.co/api/reference/dashboards.md)
+- [Databases](https://docs.secoda.co/api/reference/databases.md)
+- [Documents](https://docs.secoda.co/api/reference/documents.md)
+- [Events](https://docs.secoda.co/api/reference/events.md)
+- [Groups](https://docs.secoda.co/api/reference/groups.md)
+- [Integrations](https://docs.secoda.co/api/reference/integrations.md)
+- [Lineage](https://docs.secoda.co/api/reference/lineage.md)
+- [Monitors](https://docs.secoda.co/api/reference/monitors.md)
+- [Resources](https://docs.secoda.co/api/reference/resources.md)
+- [Schemas](https://docs.secoda.co/api/reference/schemas.md)
+- [Tables](https://docs.secoda.co/api/reference/tables.md)
+- [Tags](https://docs.secoda.co/api/reference/tags.md)
+- [Teams](https://docs.secoda.co/api/reference/teams.md)
+- [Users](https://docs.secoda.co/api/reference/users.md)
+- [Questions](https://docs.secoda.co/api/reference/questions.md)
+- [Queries](https://docs.secoda.co/api/reference/queries.md)
+- [Models](https://docs.secoda.co/api/reference/models.md)
+- [Examples](https://docs.secoda.co/api/examples.md): See below for a few use cases for Secoda APIs.
+- [FAQ](https://docs.secoda.co/faq.md): Key questions about the Secoda product
+- [Policies](https://docs.secoda.co/policies.md): Everything you need to know about Secoda's policies
+- [Terms of use](https://docs.secoda.co/policies/terms-of-use.md): Secoda's terms of use policy
+- [Secoda AI terms](https://docs.secoda.co/policies/secoda-ai-terms.md)
+- [Master subscription agreement](https://docs.secoda.co/policies/master-subscription-agreement.md)
+- [Privacy policy](https://docs.secoda.co/policies/privacy-policy.md): The privacy policy that Secoda uses
+- [Security policy](https://docs.secoda.co/policies/security-policy.md): Secoda is committed to security and focused on keeping you and your data safe.
+- [Accessibility statement](https://docs.secoda.co/policies/accessibility-statement.md)
+- [Data processing agreement](https://docs.secoda.co/policies/data-processing-agreement.md)
+- [Subprocessors](https://docs.secoda.co/policies/subprocessors.md)
+- [Service level agreement](https://docs.secoda.co/policies/service-level-agreement.md)
+- [Bug bounty program](https://docs.secoda.co/policies/bug-bounty-program.md)
+- [Changelog](https://docs.secoda.co/changelog.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.secoda.co/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

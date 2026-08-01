@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: live probe of /.well-known/* on secoda.co, api.secoda.co, docs.secoda.co, app.secoda.co
+hosts:
+  - host: https://secoda.co
+    documents:
+      - { path: /.well-known/security.txt, status: 404 }
+      - { path: /.well-known/openid-configuration, status: 404 }
+      - { path: /.well-known/oauth-authorization-server, status: 404 }
+      - { path: /.well-known/api-catalog, status: 404 }
+      - { path: /.well-known/ai-plugin.json, status: 404 }
+  - host: https://api.secoda.co
+    documents:
+      - { path: /.well-known/security.txt, status: 404 }
+      - { path: /.well-known/openid-configuration, status: 404 }
+      - { path: /.well-known/oauth-authorization-server, status: 404 }
+      - { path: /.well-known/api-catalog, status: 404 }
+      - { path: /.well-known/ai-plugin.json, status: 404 }
+  - host: https://app.secoda.co
+    documents:
+      # app host returns 200 for all paths but serves the SPA HTML shell, not a
+      # real well-known document — recorded as spa-shell, not a discovery doc.
+      - { path: /.well-known/security.txt, status: 200, note: spa-shell-not-a-document }
+      - { path: /.well-known/openid-configuration, status: 200, note: spa-shell-not-a-document }
+      - { path: /.well-known/oauth-authorization-server, status: 200, note: spa-shell-not-a-document }
+      - { path: /.well-known/api-catalog, status: 200, note: spa-shell-not-a-document }
+      - { path: /.well-known/ai-plugin.json, status: 200, note: spa-shell-not-a-document }
+result: none
+notes: No genuine /.well-known/ discovery documents are published.

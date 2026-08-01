@@ -1,0 +1,76 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.secoda.co/api/reference
+docs: https://docs.secoda.co/api/reference/helpful-information
+notes: >-
+  Entity graph derived from the documented resource hierarchy and API reference
+  resources. Secoda models metadata over connected data sources; every metadata-
+  bearing object is a "Resource".
+entities:
+  - name: integration
+    description: A connected data source (warehouse, BI tool, pipeline, etc.).
+    path: /api/v1/integration
+  - name: database
+    path: /api/v1/database
+  - name: schema
+    path: /api/v1/schema
+  - name: table
+    path: /api/v1/table/tables
+  - name: column
+    path: /api/v1/column
+  - name: group
+    description: Container grouping dashboards within an integration.
+  - name: dashboard
+  - name: chart
+  - name: collection
+  - name: document
+  - name: tag
+  - name: custom_property
+  - name: user
+    path: /api/v1/user
+  - name: team
+  - name: user_group
+  - name: monitor
+  - name: query
+  - name: question
+  - name: model
+  - name: event
+  - name: audit_log
+  - name: lineage
+relationships:
+  - from: integration
+    to: database
+    type: has_many
+  - from: database
+    to: schema
+    type: has_many
+  - from: schema
+    to: table
+    type: has_many
+  - from: table
+    to: column
+    type: has_many
+  - from: integration
+    to: group
+    type: has_many
+  - from: group
+    to: dashboard
+    type: has_many
+  - from: dashboard
+    to: chart
+    type: has_many
+  - from: user
+    to: team
+    type: has_many
+    via: teams
+  - from: user
+    to: user_group
+    type: has_many
+    via: user_groups
+  - from: table
+    to: tag
+    type: has_many
+  - from: table
+    to: lineage
+    type: has_many
+    via: lineage (upstream/downstream dependencies)

@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.secoda.co/api/reference
+versioning:
+  scheme: uri-path
+  versions: [v1, v2]
+  current: v1
+  docs: https://docs.secoda.co/api/reference/getting-started
+deprecation:
+  policy_url: https://docs.secoda.co/api/reference
+  sunset_header: false
+  notes: >-
+    Individual endpoints are marked "(deprecated)" in the API reference (e.g.
+    GET/POST /api/v1/table/tables list & get) as newer versions supersede them.
+    No formal Sunset/Deprecation header (RFC 8594) support is documented.
+  deprecated_operations:
+    - 'GET /api/v1/table/tables (List tables — deprecated)'
+    - 'GET /api/v1/table/tables/{table_id} (Get table — deprecated)'
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.secoda.co
+changelog: https://docs.secoda.co/changelog

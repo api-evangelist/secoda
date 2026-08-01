@@ -1,0 +1,55 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.secoda.co/api/reference/getting-started
+docs:
+  - https://docs.secoda.co/api/reference/getting-started
+  - https://docs.secoda.co/api/reference/helpful-information
+authentication:
+  style: bearer-api-key
+  header: Authorization
+  format: 'Bearer <API_KEY>'
+  ref: authentication/secoda-authentication.yml
+base_urls:
+  # region-routed; pick the host for your workspace region
+  - region: us
+    host: https://api.secoda.co
+  - region: eu
+    host: https://eapi.secoda.co
+  - region: apac
+    host: https://aapi.secoda.co
+  - region: self-hosted
+    host: https://<your-domain>/api
+versioning:
+  scheme: uri-path
+  versions: [v1, v2]
+  current: v1
+  notes: >-
+    Paths are prefixed with /api/v1/ or /api/v2/. Some v1 endpoints (e.g. table
+    list/get) are marked deprecated in favor of v2 equivalents.
+pagination:
+  style: page-number
+  response_fields:
+    links: { next: string-url-or-null, previous: string-url-or-null }
+    meta: page-number
+    count: integer
+    total_pages: integer
+  notes: List endpoints return a links/meta/count/total_pages envelope.
+idempotency:
+  supported: false
+  notes: No Idempotency-Key header or idempotent-write contract is documented.
+error_envelope:
+  format: http-status
+  notes: >-
+    Standard HTTP status codes (400/404/429/500); 204 on delete. No
+    application/problem+json envelope documented. See errors/secoda-problem-types.yml.
+rate_limiting:
+  ref: rate-limits/secoda-rate-limits.yml
+  write_limit: 30/min on POST/PUT/PATCH, 429 on exceed
+gotchas:
+  - >-
+    Append a trailing slash to endpoints (e.g. /resource/catalog/) if a request
+    fails unexpectedly.
+resource_hierarchy:
+  tables: Integration > Databases > Schemas > Tables > Columns
+  dashboards: Integration > Groups > Dashboards > Charts
+  other: Collections / Glossary Terms / Documents require a same-type parent

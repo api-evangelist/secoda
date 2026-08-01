@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: generated
+source: https://docs.secoda.co/api/reference
+skills:
+  - file: secoda-catalog-documentation.md
+    name: Document data assets in Secoda
+    api: https://docs.secoda.co/api/reference
+    operations:
+      - 'GET /api/v1/table/tables'
+      - 'GET /api/v1/table/tables/{table_id}'
+      - 'PATCH /api/v1/table/tables/{table_id}'
+  - file: secoda-user-provisioning.md
+    name: Provision and manage Secoda users
+    api: https://docs.secoda.co/api/reference
+    operations:
+      - 'GET /api/v1/user'
+      - 'POST /api/v1/user'
+      - 'PATCH /api/v1/user/{id}'
+      - 'DELETE /api/v1/user/{id}'

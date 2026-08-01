@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.secoda.co/api/authentication
+docs: https://docs.secoda.co/api/authentication
+summary:
+  types: [http]
+  http_schemes: [bearer]
+  api_key_in: [header]
+  oauth2_flows: []
+schemes:
+  - name: bearerAuth
+    type: http
+    scheme: bearer
+    description: >-
+      Secoda API requests authenticate with a workspace API key passed in the
+      Authorization header as a Bearer token (Authorization: Bearer <API_KEY>).
+      The key is generated from workspace Settings > API and grants the same
+      workspace access as the user who created it. No OAuth or scopes are
+      documented; access is governed by the creating user's role and permissions.
+    location: header
+    parameter: Authorization
+    format: 'Bearer <API_KEY>'
+    token_url: https://app.secoda.co/settings/api
+    sources: [docs.secoda.co/api/authentication]
+notes:
+  - Regional base hosts each require a key from that region's workspace.
+  - MCP server passes the same key as an API_TOKEN environment variable.
