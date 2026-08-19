@@ -10,27 +10,35 @@ server:
   runtime: Python 3.8+
   auth:
     env:
-      API_TOKEN: '<your Secoda API token>'
+      API_TOKEN: <your Secoda API token>
       API_URL: https://app.secoda.co/api/v1/
     token_url: https://app.secoda.co/settings/api
-    notes: Authentication verifies the user's workspace and AI permissions; all operations respect existing data governance controls.
+    notes: Authentication verifies the user's workspace and AI permissions; all operations respect existing
+      data governance controls.
   client_config:
     claude_desktop: ~/Library/Application Support/Claude/claude_desktop_config.json
     cursor: ~/.cursor/mcp.json
 tools:
-  - name: search_data_assets
-    description: Search tables, columns, charts, and dashboards.
-  - name: search
-    description: General search across Secoda resources.
-  - name: run_sql
-    description: Execute SQL queries against connected data warehouses.
-  - name: retrieve_entity
-    description: Get detailed information on a specific data entity.
-  - name: entity_lineage
-    description: Explore data dependencies and lineage.
-  - name: glossary
-    description: Access business terms and definitions.
-  - name: get_secoda_docs
-    description: Retrieve documentation and knowledge articles.
-  - name: chart
-    description: Work with visualizations.
+- name: search_data_assets
+  description: Search tables, columns, charts, and dashboards.
+- name: search
+  description: General search across Secoda resources.
+- name: run_sql
+  description: Execute SQL queries against connected data warehouses.
+- name: retrieve_entity
+  description: Get detailed information on a specific data entity.
+- name: entity_lineage
+  description: Explore data dependencies and lineage.
+- name: glossary
+  description: Access business terms and definitions.
+- name: get_secoda_docs
+  description: Retrieve documentation and knowledge articles.
+- name: chart
+  description: Work with visualizations.
+deployment:
+  mode: remote
+  endpoint: https://app.secoda.co/api/v1/
+  verified: probed
+  probe: gated
+  checked: '2026-08-12'
+  source: catalog MCP census
