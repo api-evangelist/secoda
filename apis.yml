@@ -8,6 +8,17 @@ description: >-
   and exposes a REST API plus a Model Context Protocol (MCP) server so agents and
   automation can search assets, run SQL, retrieve lineage, and manage users,
   tags, and metadata programmatically. Backed by Craft Ventures.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
