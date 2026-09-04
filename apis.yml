@@ -21,15 +21,17 @@ deliveryModel:
   method: derived
 accessModel:
   pricing: unknown
-  onboarding: self-serve
+  onboarding: unknown
   trial: false
   try_now: false
   public: false
-  label: Self-serve signup
-  confidence: medium
+  label: Unknown
+  confidence: low
   source:
   - authentication
-  generated: '2026-07-22'
+  - rate-limits
+  - security
+  generated: '2026-09-03'
   method: derived
 image: https://cdn.prod.website-files.com/61ddd0b42c51f86c96e1e90e/683a14fafd2295179b0ab954_Open%20graph%20image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/secoda/refs/heads/main/apis.yml
