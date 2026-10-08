@@ -94,6 +94,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: RateLimits
+  url: rate-limits/secoda-rate-limits.yml
 # --- identity / site links ---
 - type: Website
   url: https://secoda.co
